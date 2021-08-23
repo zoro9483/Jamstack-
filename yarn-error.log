@@ -1,0 +1,42 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add gatsby react react-dom
+
+PATH: 
+  /home/osama/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.17.4
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/osama/Desktop/Jamstack /package.json: Unexpected token s in JSON at position 263
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "jamstack",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:zoro9483/Jamstack-.git",
+    "author": "zoro9483 <osama.hamed94@eng-st.cu.edu.eg>",
+    "license": "MIT",
+    "private": "true",
+    "workspaces": [
+      "packages/*"
+    ]
+  }s
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

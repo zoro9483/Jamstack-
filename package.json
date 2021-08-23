@@ -1,0 +1,13 @@
+{
+  "name": "jamstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zoro9483/Jamstack-.git",
+  "author": "zoro9483 <osama.hamed94@eng-st.cu.edu.eg>",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ]
+
+}
