@@ -162,7 +162,11 @@ window.___loader = _loader.publicLoader;
       _react.default.useEffect(() => {
         if (!onClientEntryRanRef.current) {
           onClientEntryRanRef.current = true;
-          performance.mark(`onInitialClientRender`);
+
+          if (performance.mark) {
+            performance.mark(`onInitialClientRender`);
+          }
+
           (0, _apiRunnerBrowser.apiRunner)(`onInitialClientRender`);
         }
       }, []);
